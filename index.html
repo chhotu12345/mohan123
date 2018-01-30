@@ -1,0 +1,281 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>APPLICATION FORM D.A.V. PUBLIC SCHOOL</title>
+<link rel="stylesheet" type="text/css" href="../ABBB/application.css" />
+<link rel="stylesheet" type="text/css" href="style1.css" />
+<link rel="shortcut icon" href="../ABBB/dav.jpg" />
+<style>
+body
+{
+}
+table{
+	border-collapse:collapse;
+}
+table th{
+	text-align:left;
+	color:#000;
+	padding:4px 30px 4px 8px;
+	color:#600;
+}
+table td{
+}
+table tr:nth-child(odd) td{
+	background-color:#e7edf0;
+}
+
+</style>
+</head>
+<body><!--
+<div class="m">
+<div class="mm">D.A.V. PUBLIC SCHOOL,GAYA(BIHAR)<BR>ONLINE APPLICTION FORM<BR><FONT face="Courier New, Courier, monospace" color="#FFFF04">SESSION 2017-2018<BR>ALL FIELDS ARE MANDOTRY*</div></FONT>
+<div class="mm1" align="center">STUDENT              &nbsp;     INFORMATION</div>--->
+<br />
+<form method="post">
+<table  border="1" align="center" cellpadding="8">
+<tr>
+<td >ADMISSION No.</td>
+<td ><input type="text" name="class" required pattern="^[0-9]+"  /></td>
+<!--</tr>
+<tr style=" font-size:18px;">--->
+<td>STUDENT NAME</td>
+<td><input type="text" name="s_name" placeholder="Enter Student name" required pattern="^[A-Z a-z]+" minlength="5"  /></td>
+</tr>
+<tr>
+<td>FATHER</td>
+<td><input type="text" name="g_name" placeholder="Enter Parent name" required pattern="^[A-Z a-z]+" minlength="5"  /></td>
+<td>FATHER ACCOPATION</td>
+<td><input type="text" name="g_accupation" required pattern="^[A-Z a-z]+"  /></td>
+</tr>
+<tr>
+<td>CONTACT No.</td>
+<td><input type="text" name="g_mobile" required pattern="^[0-9]+" maxlength="10" minlength="10"  /></td>
+<td>CITY</td>
+<td><input type="text" name="city" placeholder="Enter City name" required pattern="^[A-Z a-z]+"  /></td>
+</tr>
+<tr>
+<td>DATE OF BIRTH</td>
+<td><input type="date" name="dob" required /></td>
+<td>EMAIL ID</td>
+<td><input type="text" name="email"  /></td>
+</tr>
+<tr>
+<td>RELATION</td>
+					<td><select name="relation"  required>
+							<option value="">Select Category...</option>
+<option value="Father">FATHER</option>
+<option value="Brother">BROTHER</option>
+<option value="Mother">MOTHER</option>
+<option value="Sister">SISTER</option>
+<option value="Other">OTHER</option>
+						</select>
+					</td>
+<td>GENDER</td>
+<td>
+<table>
+<tr>
+<td>M</td>
+<td><input type="radio" name="gender" value="M" checked="checked" ></td>
+</tr>
+<tr>
+<td>F</td>
+<td><input type="radio" name="gender" value="F" ></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>CATEGORY</td>
+<!----<td>
+<table>
+<tr>
+<td>ST</td>
+<td><input type="radio" name="categry" value="st" ></td>
+</tr>
+<tr>
+<td>SC</td>
+<td><input type="radio" name="categry" value="sc" ></td>
+</tr>
+<tr>
+<td>OBC 1</td>
+<td><input type="radio" name="categry" value="obc1" ></td>
+</tr>
+<tr>
+<td>OBC 2</td>
+<td><input type="radio" name="categry" value="obc2" ></td>
+</tr>
+<tr>
+<td>GEN</td>
+<td><input type="radio" name="categry" value="gen" checked="checked" ></td>
+</tr>
+</table>
+</td>--->
+					<td><select name="categry"  required>
+							<option value="">Select Category...</option>
+							<option value="GEN">GEN</option>
+							<option value="OBC-I">OBC-I</option>
+							<option value="OBC-II">OBC-II</option>
+							<option value="SC">SC</option>
+							<option value="ST">ST</option>
+							<option value="PD">PD</option>
+						</select>
+					</td>
+
+<td>STATE</td>
+					<td><select name="state"  required>
+							<option value="">Select Category...</option>
+<option value="Andhra Pradesh">Andhra Pradesh </option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu And Kashmir">Jammu And Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Orissa">Orissa</option>
+                        <option value="Pondicherry">Pondicherry</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+<option value="Other">OTHER</option>						</select>
+					</td>
+
+</tr>
+<tr>
+<td>PRESENT ADRESS</td>
+<td><input type="text" name="adress" maxlength="200" placeholder="upto 200 character" style="width:500px; height:50px;" required /></td>
+<td>PIN CODE</td>
+<td><input type="text" name="pin_code" required maxlength="6" minlength="6" /></td>
+</tr>
+<tr>
+<td>STATE</td>
+<td><select name="state">
+<option value="">PLEASE SELECT</option>
+<option value="Andhra Pradesh">Andhra Pradesh </option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu And Kashmir">Jammu And Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Orissa">Orissa</option>
+                        <option value="Pondicherry">Pondicherry</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+<option value="Other">OTHER</option>
+</select></td>
+<td>DISTRICT</td>
+					<td><select name="district"  required>
+							<option value="">Select Category...</option>
+<option value="GAYA">GAYA</option>
+<option value="NAWADA">NAWADA</option>
+<option value="NALANDA">NALANDA</option>
+<option value="PATNA">PATNA</option>
+<option value="Araria">Araria </option>
+                        <option value="Arwal">Arwal</option>
+                        <option value="Aurangabad">Aurangabad</option>
+                        <option value="Banka">Banka</option>
+                        <option value="Begusarai">Begusarai</option>
+                        <option value="Bhabhua">Bhabhua</option>
+                        <option value="Bhagalpur">Bhagalpur</option>
+                        <option value="Bhojpur">Bhojpur</option>
+                        <option value="Buxar">Buxar</option>
+                        <option value="Darbhanga">Darbhanga</option>
+                        <option value="East Champaran">East Champaran</option>
+                        <option value="Gaya">Gaya</option>
+                        <option value="Gopalganj">Gopalganj</option>
+                        <option value="Jamui">Jamui</option>
+                        <option value="Jehanabad">Jehanabad</option>
+                        <option value="Katihar">Katihar</option>
+                        <option value="Khagaria">Khagaria</option>
+                        <option value="Kishanganj">Kishanganj</option>
+                        <option value="Lakhisarai">Lakhisarai</option>
+						
+						<option value="Madhepura">Madhepura</option>
+                        <option value="Madhubani">Madhubani</option>
+                        <option value="Monghyr">Monghyr</option>
+                        <option value="Muzaffarpur">Muzaffarpur</option>
+                        <option value="Nalanda">Nalanda</option>
+                        <option value="Nawada">Nawada</option>
+                        <option value="Patna">Patna</option>
+                        <option value="Purnea">Purnea</option>
+                        <option value="Rohtas">Rohtas</option>
+                        <option value="Saharsa">Saharsa</option>
+                        <option value="Samastipur">Samastipur</option>
+                        <option value="Saran">Saran</option>
+                        <option value="Sheikhpura">Sheikhpura</option>
+                        <option value="Sheohar">Sheohar</option>
+                        <option value="Sitamarhi">Sitamarhi</option>
+                        <option value="Siwan">Siwan</option>
+                        <option value="Supaul">Supaul</option>
+                        <option value="Vaishali">Vaishali</option>
+                        <option value="West Champaran">West Champaran</option>
+
+<option value="Other"></option>
+						</select>
+					</td>
+</tr>
+<tr>
+<td>PHOTO</td>
+<td><input type="file" name="image" required  /></td>
+<td>SIGNATURE</td>
+<td><input type="file" name="sig" required  /></td>
+</tr>
+</table><!--
+</div>
+<div class="mm1" align="center">Declaration</div>
+                               <p style="text-align:justify; line-height:26px;"><font color="#006600">I fully understand that the school, on accepting the registration of my ward, is not in any way bound to grant admission,as the admission is purely based on the availability of seats and on Observation cum Interaction Session for Classes Pre-Nur to I, Assessment & Interaction Session for Classes II onwards. I also understand that the decision of the Principal regarding admission will be final and binding on me. In the event of my ward being selected for admission, I shall have no objection to the school Medical Officer giving inoculation againt typhiod A, B & Cholera to my child from year to year. I further undertake to abide by the school rules and regulations.</p></font><BR>
+----------------->
+<table align="center">
+<tr>
+<td><input type="submit" name="ok" value="SAVE" style="font-size:18px"  />
+        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="Reset1" type="Reset"  value="Reset" style="font-size:24px"/><br />
+
+</td>
+</tr>
+</table><br /><center><!--
+<div class="mm1">FORM COMPLETE</div><BR>--->
+<h5 class="title1" style="display:block; margin-top:30px; color:#fff; background:#800080; padding:8px 0 8px 10px; border-radius:6px;"><center>
+<a href="adtestdisplay.php"   style="text-decoratin:none;color:white;">adtestdisplay</a></center>
+</h5>  
+
+</body>
+</html>
